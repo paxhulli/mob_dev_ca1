@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
-
+  myVariable : String = "Hello";
+   
+    updateMyValue(){
+        this.myVariable = "Welcome to our page";}
 }
